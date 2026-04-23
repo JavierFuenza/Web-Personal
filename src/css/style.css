@@ -67,3 +67,8 @@ footer { /* AI GENERATED CODE + OWN WRITTEN CODE*/
   width: 100%;
   height: auto;
 }
+
+.footer-text{
+  font-size: small;
+  color: bisque;
+}
