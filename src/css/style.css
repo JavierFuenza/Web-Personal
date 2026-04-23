@@ -1,0 +1,44 @@
+* { /* AI GENERATED CODE */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body { /* AI GENERATED CODE */
+  background-color: #fdf6fb;
+}
+
+#lang-switch { /* AI GENERATED CODE */
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px 20px;
+}
+
+#page-wrapper { /* AI GENERATED CODE */
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header { /* AI GENERATED CODE */
+  width: 100%;
+}
+
+#content-grid { /* AI GENERATED CODE */
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+footer { /* AI GENERATED CODE */
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+@media (max-width: 680px) { /* AI GENERATED CODE */
+  #content-grid {
+    grid-template-columns: 1fr;
+  }
+}
