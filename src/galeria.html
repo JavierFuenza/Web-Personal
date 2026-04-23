@@ -1,13 +1,39 @@
+<!-- JAVIER GALERIA VERSION 1  -->
+<!-- WEB CONTAINS SOME AI WRITTEN CODE OR AI INSPIRED CODE-->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria JFM</title>
+    <link rel="stylesheet" href="css/style-galeria.css">
 </head>
+
 <body>
-    <a href="index.html"><strong>VOLVER ATRAS</strong></a>
-    <br>
-    ACA VOY A TENER UNA GALERIA MAS GRANDE CON MIS FOTOS, SEPARADA POR CATEGORIA,AÑO,ETC
+    <div id="lang-switch">
+        <button>ES</button>
+        <button>EN</button>
+    </div>
+    <div id="page-wrapper">
+        <header>
+            <div class="izquierda">
+                <a href="index.html"><strong>VOLVER ATRAS</strong></a>
+            </div>
+            <div class="derecha">
+                <p>FILTRAR POR AÑO</p>
+                <select id="filtros">
+                <option value="todos">Todos</option>
+                <!-- El resto se genera automatico del json -->
+                </select>
+            </div>
+        </header>
+
+        <div id="galeria" class="galeria-grid"></div>
+
+        <script src="js/galeria.js"></script>
+    </div>
 </body>
+
 </html>
