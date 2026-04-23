@@ -8,7 +8,7 @@ body { /* AI GENERATED CODE + OWN WRITTEN CODE */
   /* background-color: black; */
   color: azure;
   overflow-wrap: break-word;
-  background-image: url("../img/bg.jpg");
+  background-image: url("../img/ATARDECER.JPG");
   background-repeat: repeat-x;
   
 }
@@ -76,4 +76,9 @@ footer { /* AI GENERATED CODE + OWN WRITTEN CODE*/
 .footer-text{
   font-size: small;
   color: bisque;
+}
+
+.guestbook{
+  width: 100%;
+  height: 600px;
 }
