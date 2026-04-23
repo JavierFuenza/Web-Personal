@@ -5,9 +5,12 @@
 }
 
 body { /* AI GENERATED CODE + OWN WRITTEN CODE */
-  background-color: black;
+  /* background-color: black; */
   color: azure;
   overflow-wrap: break-word;
+  background-image: url("../img/bg.jpg");
+  background-repeat: repeat-x;
+  
 }
 
 #lang-switch { /* AI GENERATED CODE */
@@ -22,6 +25,7 @@ body { /* AI GENERATED CODE + OWN WRITTEN CODE */
   border: 10px ridge gainsboro; 
   padding: 1.5rem;
   max-width: 100%;
+  background-color: black;
   
 }
 
