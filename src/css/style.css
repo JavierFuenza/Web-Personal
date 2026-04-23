@@ -7,6 +7,7 @@
 body { /* AI GENERATED CODE + OWN WRITTEN CODE */
   background-color: black;
   color: azure;
+  overflow-wrap: break-word;
 }
 
 #lang-switch { /* AI GENERATED CODE */
@@ -17,10 +18,11 @@ body { /* AI GENERATED CODE + OWN WRITTEN CODE */
 
 #page-wrapper { /* AI GENERATED CODE + OWN WRITTEN CODE */
   width: 90%;
-  max-width: 1000px;
   margin: 0 auto;
   border: 10px ridge gainsboro; 
   padding: 1.5rem;
+  max-width: 100%;
+  
 }
 
 header { /* AI GENERATED CODE */
@@ -51,4 +53,17 @@ footer { /* AI GENERATED CODE + OWN WRITTEN CODE*/
   width: 250px;
   height: auto;
   border: 10px double rgb(186, 140, 99);
+}
+
+.foto-galeria {
+  width: 100%;
+  height: auto;
+}
+
+.galeria { /* AI HELPED CODE */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  height: auto;
 }
